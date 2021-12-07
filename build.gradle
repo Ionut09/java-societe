@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.societe'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral() // https://mvnrepository.com/
+}
+
+dependencies {
+
+    implementation 'mysql:mysql-connector-java:8.0.24'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+//groovy
