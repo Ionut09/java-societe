@@ -1,4 +1,4 @@
-package com.societe;
+package com.societe._2_variables;
 
 import java.time.Month;
 import java.util.Scanner;
