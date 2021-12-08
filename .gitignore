@@ -29,3 +29,5 @@ dist/
 nbdist/
 .nb-gradle/
 /.dcignore
+.DS_Store
+src/.DS_Store
