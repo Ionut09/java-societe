@@ -46,6 +46,7 @@ public class Variables {
         boolean b1 = true;
         b1 = false;
 
+        System.out.println("\n7/3.0 = "+7/3.0); //2.(3)
     }
 
     /*
