@@ -11,4 +11,8 @@ public class Bat extends Animal {
     public void eat(String food) { //overriding
         System.out.println("Bats don't eat regular " + food + " they suck blood");
     }
+
+    public void fly(){
+        System.out.println("Bats fly");
+    }
 }
