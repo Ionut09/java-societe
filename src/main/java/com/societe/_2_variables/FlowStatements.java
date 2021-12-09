@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class FlowStatements {
 
+    public String statements;
+
     public static void main(String... args) {
 //        forEach();
 //        switchStatementAfterJava17();
@@ -49,9 +51,10 @@ public class FlowStatements {
         System.out.println(month + " has " + numberOfDays + " days");
     }
 
-    static void switchStatementAfterJava17() {
+    public static void switchStatementAfterJava17() {
         Scanner scanner = new Scanner(System.in);
-
+        //Non-static field 'statements' cannot be referenced from a static context
+//        statements = "switch";
         System.out.println("Enter month: ");
 
         String monthString = scanner.next();
@@ -66,7 +69,7 @@ public class FlowStatements {
         System.out.println(month + " has " + numberOfDays + " days");
     }
 
-    static void forEach() {
+    public static void forEach() {
         int[] ints = new int[]{32, 43, 33, 44, 65, 78, 17};
         int sum = 0;
 
