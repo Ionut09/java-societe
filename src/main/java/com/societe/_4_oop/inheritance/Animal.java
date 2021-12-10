@@ -1,6 +1,6 @@
 package com.societe._4_oop.inheritance;
 
-public class Animal {
+public abstract class Animal {
 
     private String species;
 
@@ -11,11 +11,11 @@ public class Animal {
         this.species = species;
     }
 
-    public Animal() {
-
-    }
+    public Animal() {}
 
     public void eat() throws RuntimeException {
         System.out.println("Animal eats");
     }
+
+    public abstract void sleep(); //method fara corp
 }

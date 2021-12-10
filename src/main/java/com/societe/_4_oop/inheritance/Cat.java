@@ -9,5 +9,10 @@ public class Cat extends Animal {
         this.breed = breed;
     }
 
+    @Override
+    public void sleep() {
+        System.out.println("Cat sleep");
+    }
+
 
 }

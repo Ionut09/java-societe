@@ -5,9 +5,9 @@ import com.societe._4_oop.inheritance.Bat;
 import com.societe._4_oop.inheritance.Dog;
 
 public class Poli {
-
+   static Animal animal;
     public static void main(String... args) {
-        Animal animal; //referinta (telecomanda)
+//        Animal animal; //referinta (telecomanda)
 
         //polimorphismul in actiune
         animal = new Bat(); //obiectul --> Bat (televizorul)
@@ -18,8 +18,11 @@ public class Poli {
 
         Object o = animal;
 
-//      animal = new Bat();
+        animal = new Bat();
 
+
+
+        //client code
         animal.eat();
     }
 }

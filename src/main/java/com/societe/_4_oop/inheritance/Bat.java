@@ -15,4 +15,10 @@ public class Bat extends Animal {
     public void fly(){
         System.out.println("Bats fly");
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("Bat sleep");
+    }
+
 }
